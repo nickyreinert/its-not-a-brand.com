@@ -1,0 +1,105 @@
+body {
+
+    background-color: #232323;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #efefef;
+    text-transform:  uppercase;
+    text-align: center;
+
+}
+
+div#intro {
+    margin-top: 10em;
+}
+
+p#short {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+span.mirrored_letter {
+    display: inline-block;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+
+}
+
+p#long span.mirrored_letter {
+    margin-left: -7px;
+    margin-right: 7px;
+}
+
+p#long {
+    font-size: x-small;
+    margin-top: -10px;
+    letter-spacing: 7.7px;
+    margin-left: 8px;
+}
+
+
+div#info {
+    margin-top: 15em;
+    font-size: x-small;
+
+}
+
+div#logo img {
+    margin-top: 10em;
+    width: 50px;
+}
+
+div#contact {
+
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+div#contact a:hover::before {
+    content: "contact";
+}
+
+div#contact a:hover::after {
+    content: "thisisnobrand.com";
+}
+
+div#contact a, div#contact a:visited, div#contact a:active {
+    color: #ababab;
+    font-size: small;
+    text-decoration: none;
+}
+
+
+.hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #64C7CC;
+  margin: 86.60px 0;
+}
+
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #64C7CC;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #64C7CC;
+}
+
