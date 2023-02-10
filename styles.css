@@ -8,7 +8,12 @@ body {
 
 }
 
-div#shop a:visited, a:active, a:hover {
+div#shop a, a:visited, a:active, a:hover {
+    color: #f00;
+    text-decoration: none;
+}
+
+div#shop a, a:visited, a:active, a:hover {
     color: #f00;
     text-decoration: none;
 }
@@ -53,7 +58,8 @@ div#info {
 }
 
 div#logo img {
-    margin-top: 10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
     width: 50px;
 }
 
