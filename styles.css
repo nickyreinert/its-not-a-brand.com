@@ -8,6 +8,11 @@ body {
 
 }
 
+div#shop a:visited, a:active, a:hover {
+    color: #f00;
+    text-decoration: none;
+}
+
 div#intro {
     margin-top: 10em;
 }
